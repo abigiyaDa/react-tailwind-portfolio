@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/NavBar.jsx"
+import { Navbar } from "@/components/Navbar.jsx"
 import { ThemeToggle } from "../components/ThemeToggle.jsx"
 import { StarBackground } from "@/components/StarBackground.jsx"
 import { HeroSection } from "../components/HeroSection.jsx"
