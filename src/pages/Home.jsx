@@ -6,7 +6,7 @@ import { AboutSection } from "../components/AboutSection"
 import { SkillsSection } from "../components/SkillsSection"
 import { ProjectsSection } from "../components/ProjectsSection"
 import { ContactSection } from "../components/ContactSection"
-import { Footer } from "../components/Footer.JSX"
+import { FooterSection } from "../components/FooterSection"
 
 
 export const Home = () => {
@@ -33,8 +33,7 @@ export const Home = () => {
 
         {/* footer */}
 
-        <Footer />
-
+        <FooterSection />
     </div>
   )
 }
