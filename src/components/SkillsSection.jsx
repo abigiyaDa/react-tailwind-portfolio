@@ -1,7 +1,7 @@
 // list out all the skills
 
 import { useState } from "react"
-import {cn} from "@/lib/utils"
+import {cn} from "@/lib/utils.js"
 // category - 3 - tools , backend , frontend and all
 const Skills = [
     //frontend

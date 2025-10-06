@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import {cn} from "@/lib/utils"
+import {cn} from "@/lib/utils.js"
 import { Menu, X } from "lucide-react";
 //list of links we want in the nav bar
 
