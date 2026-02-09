@@ -55,6 +55,16 @@ const projects = [
         demoUrl : "https://abigiyada.github.io/UGR-5110-15-portfolio-profile-html-css-js/index.html",
         githubUrl : "https://github.com/abigiyaDa/UGR-5110-15-portfolio-profile-html-css-js/tree/final"
      },
+     {
+        id: 7,
+        title: "Housing Price Prediction (Ames Housing Dataset)",
+        description: "A machine learning project predicting residential property prices using Python, Scikit-learn, Pandas, and NumPy. Features include preprocessing, model training, evaluation, and a Streamlit app for interactive predictions.",
+        image: "/projects/housing-price.png", // replace with your project screenshot
+        tag: ["Python", "Scikit-learn", "Pandas", "NumPy", "Streamlit", "ML"],
+        demoUrl: "https://predicting-housing-price-project.streamlit.app/",
+        githubUrl: "https://github.com/abigiyaDa/predicting-housing-price"
+}
+
 ]
 
 export const ProjectsSection = () => {
