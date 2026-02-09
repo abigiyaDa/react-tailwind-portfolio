@@ -1,16 +1,91 @@
-# React + Vite
+# React Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **personal developer portfolio** built with **React, Vite, and TailwindCSS**.  
+It showcases my projects, skills, and contact information in a clean, responsive UI with smooth navigation and theming support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://abigiya-daniel.vercel.app/
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡ Built with **React + Vite** for fast performance
+- 🎨 Styled using **TailwindCSS**
+- 🌙 Dark / Light theme toggle
+- 📱 Fully responsive design (mobile + desktop)
+- 🧭 Smooth navigation with fixed navbar
+- 📂 Project showcase section
+- 🧠 Skills section
+- 👤 About section
+- 📩 Contact section
+- ⭐ Animated star background
+- 🧩 Modular reusable components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React 19
+- Vite
+- TailwindCSS 4
+- React Router DOM
+- Lucide React (icons)
+
+## 📂 Project Structure
+```
+src
+├── App.jsx
+├── assets
+├── components
+│ ├── AboutSection.jsx
+│ ├── ContactSection.jsx
+│ ├── FooterSection.jsx
+│ ├── HeroSection.jsx
+│ ├── Navbar.jsx
+│ ├── ProjectsSection.jsx
+│ ├── SkillsSection.jsx
+│ ├── StarBackground.jsx
+│ └── ThemeToggle.jsx
+├── lib
+│ └── utils.js
+├── pages
+│ ├── Home.jsx
+│ └── NotFound.jsx
+├── index.css
+└── main.jsx
+``` 
+
+
+---
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository 
+
+```bash
+# SSH
+git clone git@github.com:abigiyaDa/react-tailwind-portfolio.git
+# HTTPS
+git clone https://github.com/abigiyaDa/react-tailwind-portfolio.git
+```
+```bash
+cd react-tailwind-portfolio
+```
+### 2️⃣ Install dependencies
+```bash
+npm install
+```
+### 3️⃣ Run development server
+```bash
+npm run dev
+```
+
+## 👤 Author
+
+**Abigiya Daniel**
+
+- 🌐 Portfolio: https://abigiya-daniel.vercel.app/
+- 💻 GitHub: https://github.com/abigiyaDa
