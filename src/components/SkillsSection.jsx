@@ -10,8 +10,9 @@ const Skills = [
     {name: "JavaScript", level : 90, category: "frontend"},
     {name: "jQuery", level : 70, category: "frontend"},
     {name: "React", level : 80, category: "frontend"},
+    {name: "Next.js", level : 75, category: "frontend"},
     {name: "Tailwind CSS", level : 75, category: "frontend"},
-    {name: "Flutter (mobile & cross-platform)" , level:65 , category:"frontend"},
+    {name: "Flutter " , level:65 , category:"frontend"},
 
     // backend 
     {name: "Node.js", level : 70, category: "backend"},
@@ -24,8 +25,13 @@ const Skills = [
     {name: "Figma", level : 85, category: "tools"},
     {name: "VS Code", level : 95, category: "tools"},
     {name: "Postman", level : 95, category: "tools"}, 
+    // machine learning
+
+    {name: "Scikit-Learn", level : 50, category: "ML"},
+    {name: "pandas", level : 70, category: "ML"},
+    {name: "NumPy", level : 75, category: "ML"},
 ]
-const categories = ["all","frontend","backend","tools"]
+const categories = ["all","frontend","backend","tools","ML"]
 export const SkillsSection = () => {
     // category - are all(default) , frontend , backend , tools 
     const [activeCategory,setActiveCategory] = useState("all")
