@@ -27,7 +27,7 @@ export const Navbar = () => {
     return (
         <nav 
         className={cn("fixed w-full z-40 transition-all duration-300", 
-            isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
+            isScrolled ? "py-3 bg-background/80 shadow-xs" : "py-5"
         )}>
             <div className="container flex items-center justify-between">
                 <a 
@@ -55,7 +55,7 @@ export const Navbar = () => {
                 {/* its vertical | not horizontal --  so add an extra outer div*/}
 
                 <button onClick={()=> setIsMenuOpen((prev) => !prev)} 
-                    className="md:hidden p-2 text-foreground z-50"
+                    className="md:hidden p-2 text-foreground z-50 mr-6"
                     aria-label={isMenuOpen?"close menu":"open menu"}
                 >
                     {isMenuOpen ? <X size={24} /> : <Menu size={24}/>}
