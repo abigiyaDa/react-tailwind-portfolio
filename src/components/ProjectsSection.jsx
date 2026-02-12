@@ -63,7 +63,17 @@ const projects = [
         tag: ["Python", "Scikit-learn", "Pandas", "NumPy", "Streamlit", "ML"],
         demoUrl: "https://predicting-housing-price-project.streamlit.app/",
         githubUrl: "https://github.com/abigiyaDa/predicting-housing-price"
-}
+    },
+    {
+        id: 8,
+        title: "NoteCore – Full Stack Notes App",
+        description: "A full stack note app built with React, TypeScript, Express, SQLite, JWT auth, and tagging system.",
+        image: "/projects/notecore-home.png",
+        tag: ["React", "TypeScript", "Express", "SQLite", "JWT"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/abigiyaDa/NoteCore"
+    }
+
 
 ]
 
