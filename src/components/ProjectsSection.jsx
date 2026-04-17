@@ -1,6 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
+    {
+        id : 0,
+        title : "personal-task-manager (Group project)",
+        description : "A task management web app built with React, TypeScript, Express, and MySQL that allows users to create, organize, and track their tasks efficiently.",
+        image : "/projects/personal-task-manager.png",
+        tag : ["React","TypeScript", "Express", "MySQL"],
+        demoUrl : "https://personal-task-manager-rouge.vercel.app/",
+        githubUrl : "https://github.com/abigiyaDa/Personal-Task-Manager"
+    },
      {
         id : 1,
         title : "Volunteer Connect App (Group project)",
