@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id : 0,
+        title : "Friendship Bracelets – Online Ordering Platform",
+        description : "An online ordering platform for a handmade bracelet shop, built with React, Django REST Framework, and MySQL, featuring color customization, deposit payments with receipt upload, order tracking, and an admin dashboard.",
+        image : "/projects/Friendship Bracelet.png",
+        tag : ["React","JWT", "Django", "MySQL"],
+        demoUrl : "https://friendship-bracelets-frontend.vercel.app/",
+        githubUrl : "https://github.com/abigiyaDa/friendship-bracelets-frontend"
+    },
+    {
+        id : 1,
         title : "personal-task-manager (Group project)",
         description : "A task management web app built with React, TypeScript, Express, and MySQL that allows users to create, organize, and track their tasks efficiently.",
         image : "/projects/personal-task-manager.png",
@@ -11,16 +20,16 @@ const projects = [
         githubUrl : "https://github.com/abigiyaDa/Personal-Task-Manager"
     },
      {
-        id : 1,
+        id : 2,
         title : "Volunteer Connect App (Group project)",
         description : "A mobile app built with Flutter, Riverpod, Express, and MySQL that connects volunteers with organizations and manages opportunities efficiently.",
         image : "/projects/volunteer-connect-2.png",
         tag : ["Flutter","Express", "MySQL"],
-        demoUrl : " https://www.figma.com/design/cJ3yuE1zTnh3TTQZmpce8t/volunteer-connect?node-id=0-1&t=1YF1Hz2uK1rXOt3N-1",
+        demoUrl : "https://www.figma.com/design/cJ3yuE1zTnh3TTQZmpce8t/volunteer-connect?node-id=0-1&t=1YF1Hz2uK1rXOt3N-1",
         githubUrl : "https://github.com/JiruGutema/flutter_riverpod_final"
      },
      {
-        id : 2,
+        id : 3,
         title : "Drum Kit Website ",
         description : "An interactive drum kit web app built with jQuery and CSS that lets users play sounds by clicking or pressing keys.",
         image : "/projects/drumKit.png",
@@ -29,7 +38,7 @@ const projects = [
         githubUrl : "https://github.com/abigiyaDa/drum-kit-jQuery"
      },
      {
-        id : 3,
+        id : 4,
         title : "Todo List Web App",
         description : "A full-featured todo list application built with EJS, Express, and CSS, allowing users to create, edit, and view detailed tasks.",
         image : "/projects/todo.png",
@@ -38,7 +47,7 @@ const projects = [
         githubUrl : "https://github.com/abigiyaDa/Todo-using-ejs-node-express/tree/main/public/styles"
      },
      {
-        id : 4,
+        id : 5,
         title : "Simple Product Catalog",
         description : "A responsive and simple Product Catalog Website using html and css",
         image : "/projects/products.png",
@@ -47,7 +56,7 @@ const projects = [
         githubUrl : "https://github.com/abigiyaDa/ASSESSMNET1_AbigiyaDaniel_section4"
      },
      {
-        id : 5,
+        id : 6,
         title : "Restaurant Ordering System (Group project)",
         description : "A group project built with Node.js, TypeScript, and HTML, where I contributed as a frontend developer to create an interactive ordering interface.",
         image : "/projects/restaurant.png",
@@ -56,7 +65,7 @@ const projects = [
         githubUrl : "https://github.com/Ephraimdebel/Restaurant_Ordering_System_2024_25"
      },
      {
-        id : 6,
+        id : 7,
         title : "Old Portfolio Website",
         description : "My previous portfolio built with HTML, CSS, and JavaScript, showcasing my early web development projects and foundational skills.",
         image : "/projects/Portfolio.png",
@@ -65,7 +74,7 @@ const projects = [
         githubUrl : "https://github.com/abigiyaDa/UGR-5110-15-portfolio-profile-html-css-js/tree/final"
      },
      {
-        id: 7,
+        id: 8,
         title: "Housing Price Prediction (Ames Housing Dataset)",
         description: "A machine learning project predicting residential property prices using Python, Scikit-learn, Pandas, and NumPy. Features include preprocessing, model training, evaluation, and a Streamlit app for interactive predictions.",
         image: "/projects/housing-price.png", // replace with your project screenshot
@@ -74,7 +83,7 @@ const projects = [
         githubUrl: "https://github.com/abigiyaDa/predicting-housing-price"
     },
     {
-        id: 8,
+        id: 9,
         title: "NoteCore – Full Stack Notes App",
         description: "A full stack note app built with React, TypeScript, Express, SQLite, JWT auth, and tagging system.",
         image: "/projects/notecore-home.png",
